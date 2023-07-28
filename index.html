@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Avaliação de idade</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <script src="system.js"></script>
+        <div class="titulo_div">
+            <h1>Avaliação de idade</h1>
+        </div>
+        <div class="campo_dados_div">
+            <form onsubmit="sistema (event)">
+            <label for="nome">Digite seu nome:</label>
+            <input for="nomE" id="nome" type="text" placeholder="Digite seu nome.."><BR>
+            <!--------------->
+            <label for="idade">Digite sua idade:</label>
+            <input id="idade" type="number" placeholder="Digite sua idade..."><BR>
+            <!------------------>
+            <button  onclick="sistema()">Avaliar a idade</button>
+            </form>
+            <!-------->
+        </div>
+        <div class="resultados-div">
+            <p id="resultado"></p>
+        </div>
+    </body>
+</html>
